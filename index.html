@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="funnymoon" />
+    <meta name="description" content="영화예매사이트 만들며 공부중입니다" />
+    <meta
+      name="keywords"
+      content="영화예매사이트, 메가박스, CGV, 롯데시네마, 영화인트로, 영화트레일러, 사이트 만들기, 반응형 사이트, 클론코딩"
+    />
+    <title>메가박스 사이트 만들기</title>
+
+    <!-- css -->
+    <!-- 아이콘 폰트어썸 -->
+    <script src="https://kit.fontawesome.com/fb27592f06.js" crossorigin="anonymous"></script>
+
+    <!-- 스와이퍼 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/myswiper.css" />
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="assets/css/font.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+
+    <!-- 영역별 css -->
+    <link rel="stylesheet" href="assets/css/mNav.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/banner.css" />
+    <link rel="stylesheet" href="assets/css/movie.css" />
+    <link rel="stylesheet" href="assets/css/event.css" />
+    <link rel="stylesheet" href="assets/css/opening.css" />
+    <link rel="stylesheet" href="assets/css/new.css" />
+    <link rel="stylesheet" href="assets/css/help.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+  </head>
+  <body>
+    <!-- 모바일 메뉴 -->
+    <nav id="mNav">
+      <a href="#" class="ham"><i class="fa-solid fa-bars"></i></a>
+      <ul>
+        <li><a href="#">영화</a></li>
+        <li><a href="#">큐레이터</a></li>
+        <li><a href="#">영화관</a></li>
+        <li><a href="#">특별관</a></li>
+        <li><a href="#">스토어</a></li>
+        <li><a href="#">이벤트</a></li>
+        <li><a href="#">로그인</a></li>
+      </ul>
+    </nav>
+
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="header">
+            <h1>
+              <a href="#">
+                <em><img src="assets/img/logo.png" alt="" /></em>
+                <strong><img src="assets/img/logo-sub.png" alt="" /></strong>
+              </a>
+            </h1>
+            <nav class="nav">
+              <ul>
+                <li><a href="#">영화</a></li>
+                <li><a href="#">큐레이터</a></li>
+                <li><a href="#">영화관</a></li>
+                <li><a href="#">특별관</a></li>
+                <li><a href="#">스토어</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">로그인</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- //header -->
+
+    <section id="banner">
+      <h2 class="ir_so">최신 영화 소식</h2>
+      <div class="container">
+        <div class="row">
+          <div class="banner_menu">
+            <div class="bm_left">
+              <ul>
+                <li class="total">
+                  <a href="#"><i class="fa-solid fa-bars"></i>전체메뉴</a>
+                </li>
+                <li class="line"><a href="#">필름 소사이어티</a></li>
+                <li><a href="#">클래식 소사이어티</a></li>
+              </ul>
+            </div>
+            <div class="bm_right">
+              <ul>
+                <li class="line"><a href="#">고객센터</a></li>
+                <li class="line"><a href="#">멤버쉽</a></li>
+                <li><a href="#">VIP</a></li>
+              </ul>
+              <ul>
+                <li class="white"><a href="#">상영시간표</a></li>
+                <li class="purple"><a href="#">빠른 예매</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- //banner_menu -->
+        </div>
+      </div>
+      <div class="slider">
+        <!-- Swiper -->
+        <div class="swiper hero">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ss1">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss2">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss3">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss4">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss5">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss6">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss7">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ss8">
+              <div class="container">
+                <div class="row">
+                  <h2>캡틴 아메리카<em>Brave New World</em></h2>
+                  <p>새로운 히어로, 어벤져스의 희망</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- //banner -->
+
+    <section id="movie">
+      <div class="container">
+        <div class="row">
+          <div class="movie">
+            <h2 class="ir_so">영화예매</h2>
+            <div class="movie_title">
+              <ul>
+                <li class="active"><a href="#">박스오피스</a></li>
+                <li><a href="#">최신개봉작</a></li>
+                <li><a href="#">상영예정작</a></li>
+                <li><a href="#">큐레이션</a></li>
+              </ul>
+            </div>
+            <div class="movie_chart">
+              <div class="chart_cont1">
+                <div class="swiper slider2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster01.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>1</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon all ir_pm">전체관람가</span><strong>아바타</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster02.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>2</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a15 ir_pm">15세관람가</span><strong>왕과 사는 남자</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster03.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>3</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a19 ir_pm">19세관람가</span><strong>부흥</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster04.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>4</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a19 ir_pm">19세관람가</span><strong>휴민트</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster05.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>5</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon all ir_pm">전체관람가</span><strong>한번 더 소환</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster06.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>6</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a12 ir_pm">12세관람가</span><strong>넘버원</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster07.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>7</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a15 ir_pm">15세관람가</span><strong>노머시</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster08.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>8</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a15 ir_pm">15세관람가</span><strong>척의일생</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="poster">
+                        <figure>
+                          <img src="assets/img/poster09.jpg" alt="" />
+                        </figure>
+                        <div class="rank"><strong>9</strong></div>
+                        <div class="mx">
+                          <span class="icon m ir_pm">MX</span>
+                          <span class="icon b ir_pm">Boutique</span>
+                        </div>
+                        <div class="poster_overlay">
+                          <div class="summery">
+                            월드 와이드 흥행 불멸의 1위 아바타 시리즈의 세 번째 이야기! 판도라를 위협하는 재의 부족, 더
+                            이상 인간만이 적이 아니다! 12월, 모두의 운명을 뒤흔들 거대한 전투가 시작된다! 인간들과의
+                            전쟁으로 첫째 아들 ‘네테이얌’을 잃은 후, ‘제이크’와 ‘네이티리’는 깊은 슬픔에 빠진다. 상실에
+                            빠진 이들 앞에 '바랑'이 이끄는 재의 부족이 등장하면서, 판도라는 더욱 큰 위험에 빠지게 되고,
+                            ‘설리’ 가족은 선택의 기로에 서게 되는데… 역대급 스케일과 액션, 오직 아바타 만이 선사할
+                            압도적 시네마틱 경험을 반드시 극장에서 확인하라!
+                          </div>
+                          <div class="score"><span>관람평</span><strong>9.6</strong></div>
+                        </div>
+                      </div>
+                      <div class="infor">
+                        <h3><span class="icon a19 ir_pm">19세관람가</span><strong>아바타</strong></h3>
+                        <div class="infor_btn">
+                          <a href="#">상세보기</a>
+                          <a href="#">예매하기</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart_cont2"></div>
+              <div class="chart_cont3"></div>
+              <div class="chart_cont4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //movie -->
+
+    <section id="event"></section>
+    <!-- //event -->
+
+    <section id="opening"></section>
+    <!-- //opening -->
+
+    <section id="new"></section>
+    <!-- //new -->
+
+    <section id="help"></section>
+    <!-- //help -->
+
+    <footer id="footer"></footer>
+    <!-- //footer -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="assets/js/mySwiper.js"></script>
+  </body>
+</html>
