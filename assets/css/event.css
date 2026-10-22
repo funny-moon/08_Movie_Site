@@ -1,6 +1,7 @@
 /* 이벤트 영역 */
 .event {
-  padding: 0 0 100px 0;
+  padding: 100px;
+  padding-top: 0;
 }
 .event h2 {
   font-size: 28px;
@@ -22,14 +23,17 @@
 .event_box1 {
   width: 100%;
   margin-bottom: 2.25%;
+  box-shadow: 0 0 10px #616161b9;
 }
 .event_box2,
 .event_box3 {
   width: 50%;
+  box-shadow: 0 0 10px #616161b9;
 }
 
 .event_right {
   width: 32%;
+  box-shadow: 0 0 10px #616161b9;
 }
 
 /* 미디어 쿼리 */

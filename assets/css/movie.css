@@ -169,9 +169,14 @@
   padding: 8px 0;
   text-align: center;
   background-color: #d9d9d9;
+  transition: all 0.2s;
+}
+.infor .infor_btn a:hover {
+  background-color: #a5a5a5;
+  color: #d4d4d4;
 }
 .movie_chart .swiper-slide {
-  box-shadow: 0px 0px 5px #00000056;
+  box-shadow: 0px 0px 5px #5757578a;
 }
 
 /* 미디어 쿼리 */
@@ -277,6 +282,7 @@
   }
   #movie::after {
     width: 12px;
+    height: 500px;
   }
   .movie {
     padding: 12px 0;
