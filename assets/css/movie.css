@@ -14,6 +14,7 @@
   width: 25%;
   text-align: center;
   border: 1px solid #9c9c9c;
+  margin-left: -1px;
 }
 .movie_title ul li a {
   display: block;
@@ -169,6 +170,9 @@
   text-align: center;
   background-color: #d9d9d9;
 }
+.movie_chart .swiper-slide {
+  box-shadow: 0px 0px 5px #00000056;
+}
 
 /* 미디어 쿼리 */
 @media (max-width: 1300px) {
@@ -194,7 +198,7 @@
   }
   .movie h2.ir_so {
     position: static;
-    width: auto;
+    width: 100%;
     height: auto;
     line-height: normal;
     text-indent: 0;
@@ -236,9 +240,21 @@
 @media (max-width: 600px) {
   #movie {
     padding: 16px;
+    padding-right: 0;
+    position: relative;
+  }
+  #movie::after {
+    content: "";
+    width: 16px;
+    height: 800px;
+    background-color: #d9d9d9;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
   #movie .row {
     padding: 0 16px;
+    padding-right: 0;
   }
   .movie {
     padding: 16px 0;
@@ -246,13 +262,21 @@
   .movie_title ul li a {
     margin-right: 20px;
   }
+  .movie h2.ir_so {
+    width: calc(100% - 32px);
+  }
 }
 @media (max-width: 480px) {
   #movie {
     padding: 12px;
+    padding-right: 0;
   }
   #movie .row {
     padding: 0 12px;
+    padding-right: 0;
+  }
+  #movie::after {
+    width: 12px;
   }
   .movie {
     padding: 12px 0;
@@ -260,6 +284,9 @@
   .movie_title ul li a {
     margin-right: 10px;
     font-size: 14px;
+  }
+  .movie h2.ir_so {
+    width: calc(100% - 24px);
   }
 }
 
