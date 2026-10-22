@@ -123,6 +123,11 @@
   padding: 10px 15px 15px 15px;
   border: 1px solid #b1b0b0;
   box-sizing: border-box;
+
+  /* 생략 삼총사 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .infor h3 {
   margin-bottom: 10px;
@@ -180,9 +185,82 @@
   }
 }
 @media (max-width: 768px) {
-}
+  #movie .row {
+    padding: 0 24px;
+    background-color: #fff;
+  }
+  .movie {
+    padding: 24px 0;
+  }
+  .movie h2.ir_so {
+    position: static;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    text-indent: 0;
 
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+  }
+  .movie_title {
+    margin-bottom: 20px;
+  }
+
+  .movie_title ul li {
+    width: auto;
+    border: 0;
+  }
+  .movie_title ul li a {
+    padding: 5px 0;
+    font-weight: 400;
+    margin-right: 35px;
+  }
+  .movie_title ul li.active a {
+    background: none;
+    color: #666;
+    font-weight: 600;
+    position: relative;
+  }
+  .movie_title ul li.active a::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+@media (max-width: 600px) {
+  #movie {
+    padding: 16px;
+  }
+  #movie .row {
+    padding: 0 16px;
+  }
+  .movie {
+    padding: 16px 0;
+  }
+  .movie_title ul li a {
+    margin-right: 20px;
+  }
+}
 @media (max-width: 480px) {
+  #movie {
+    padding: 12px;
+  }
+  #movie .row {
+    padding: 0 12px;
+  }
+  .movie {
+    padding: 12px 0;
+  }
+  .movie_title ul li a {
+    margin-right: 10px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 320px) {
