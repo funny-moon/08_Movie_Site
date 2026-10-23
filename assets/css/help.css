@@ -228,9 +228,26 @@
   }
 }
 @media (max-width: 600px) {
+  #help {
+    padding: 16px;
+    padding-top: 0;
+  }
+  .help {
+    padding-bottom: 0;
+  }
   .service ul li {
     width: 50%;
     height: 100px;
+  }
+  .help_box1 {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .help_box2 {
+    padding: 16px;
+  }
+  .help_box3 {
+    margin-top: 16px;
   }
 }
 @media (max-width: 480px) {
