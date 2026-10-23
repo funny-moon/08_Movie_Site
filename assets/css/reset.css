@@ -148,7 +148,9 @@ input[type="password"],
 input[type="submit"],
 input[type="search"],
 input[type="tel"],
-input[type="email"] {
+input[type="email"],
+select,
+option {
   -webkit-appearance: none;
   border-radius: 0;
 }
