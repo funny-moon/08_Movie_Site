@@ -148,9 +148,7 @@ input[type="password"],
 input[type="submit"],
 input[type="search"],
 input[type="tel"],
-input[type="email"],
-select,
-option {
+input[type="email"] {
   -webkit-appearance: none;
   border-radius: 0;
 }
@@ -164,4 +162,11 @@ input:checked[type="checkbox"] {
 }
 input:focus {
   outline: none;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
 }
