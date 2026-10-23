@@ -7,6 +7,20 @@
 }
 .help > div {
   flex: 1;
+
+  transform: translateY(200px);
+  opacity: 0;
+  transition: all 0.33s ease-in-out;
+}
+.help > div:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.help > div:nth-child(3) {
+  transition-delay: 0.4s;
+}
+.help > div.show {
+  transform: translateY(0);
+  opacity: 1;
 }
 .help > div h3 {
   font-size: 28px;
@@ -253,6 +267,7 @@
 @media (max-width: 480px) {
   #help {
     padding: 12px;
+    padding-top: 0;
   }
   .notice > ul > li > a {
     width: 75px;

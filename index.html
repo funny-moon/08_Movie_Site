@@ -1370,7 +1370,7 @@
             <h2>새로운 영화</h2>
             <div class="new_inner">
               <div class="new_left">
-                <div class="play">
+                <div class="play" id="showTrailer" data-youtube="acUIyAfieHE">
                   <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="60" cy="60" r="60" fill="white" fill-opacity="0.46" />
                     <path
@@ -1659,6 +1659,17 @@
       </div>
     </footer>
     <!-- //footer -->
+
+    <!-- 트레일러 -->
+    <aside id="blackout" class="overlay is-hidden" role="complementary" aria-hidden="true">
+      <div id="trailerModal" class="modal">
+        <div id="trailer"></div>
+        <!--Youtube 플레이어로 대체되는 부분-->
+      </div>
+      <button id="hideTrailer" class="modal_close" type="button">닫기</button>
+    </aside>
+    <!-- //트레일러 -->
+    <script src="assets/js/movie.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
