@@ -166,6 +166,9 @@
     width: 100%;
     margin-top: 20px;
   }
+  .help_box3 h3 {
+    display: none;
+  }
   .service ul {
     border: 1px solid #b3b3b3;
   }
@@ -208,11 +211,29 @@
   }
   .help_box3 {
     background-color: #fff;
-    padding: 24px;
+    padding: 16px;
     box-sizing: border-box;
+  }
+  .service ul {
+    border: 0;
+  }
+  .service ul li {
+    height: 160px;
+  }
+  .service ul li a img {
+    width: 60px;
+  }
+  .service ul li a strong {
+    font-size: 16px;
   }
 }
 @media (max-width: 600px) {
+  .service ul li {
+    width: 50%;
+    height: 100px;
+  }
+  .help_box3 {
+  }
 }
 @media (max-width: 480px) {
 }
