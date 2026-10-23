@@ -165,8 +165,7 @@ input:focus {
 }
 
 select {
-  -webkit-appearance: none;
-  appearance: none;
-  border-radius: 0;
-  -webkit-border-radius: 0;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  border-radius: 0 !important;
 }
