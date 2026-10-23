@@ -232,11 +232,19 @@
     width: 50%;
     height: 100px;
   }
-  .help_box3 {
-  }
 }
 @media (max-width: 480px) {
+  #help {
+    padding: 12px;
+  }
+  .notice > ul > li > a {
+    width: 75px;
+    padding: 10px 15px;
+  }
 }
 
 @media (max-width: 320px) {
+  .card ul {
+    height: 400px;
+  }
 }
