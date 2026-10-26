@@ -49,6 +49,7 @@
   margin-left: -1px;
   text-align: center;
 }
+
 .notice > ul > li.active > a {
   background-color: #fff;
 }
@@ -78,6 +79,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.notice > ul > li > ul > li > dl > dd > a:hover {
+  color: #be8cff;
+}
 
 /* 메가박스 할인카드 */
 .card {
@@ -99,6 +103,7 @@
 .card ul li a {
   display: flex;
 }
+
 .card ul li a span.card_img {
   width: 115px;
   margin-right: 5%;
@@ -146,6 +151,9 @@
 }
 .service ul li a {
   display: block;
+}
+.service ul li a:hover {
+  color: #be8cff;
 }
 .service ul li a img {
   width: 83px;

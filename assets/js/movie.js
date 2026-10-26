@@ -5,7 +5,6 @@ const blackout = document.getElementById("blackout");
 let player = null;
 let apiReady = false;
 let pendingVideoId = null;
-s;
 
 // 1) YouTube IFrame API 로드 (1회)
 function loadYouTubeAPI() {
